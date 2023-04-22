@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+.span{
+        color: #016680;
+}
+#hsForm_0fea6c11-dad7-44f8-8454-cce46ebd3755  h1 {
+    font-size: 25px;
+    text-align: center;
+    font-family: Suisseintl,sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    width:100% !important;
+}
+.lastname-0fea6c11-dad7-44f8-8454-cce46ebd3755{
+    width:100%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+
+}
+img{
+display: none !important;
+}
+/*p{
+    display: none !important;
+}*/
+.span{
+    display: visibility !important;
+}
+.hs-error-msg, .hs-main-font-element {
+    color: red;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+.inputs-list {
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+}
+.input > input, .input > select, .input > textarea {
+    display: block;
+    width: 100% !important;
+    padding: 8px 12px;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    height: 3.125rem;
+    margin-bottom: 0;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border: 1px solid rgba(32,31,33,.4);
+    border-radius: 50rem;
+    background-color: transparent;
+    color: inherit;
+    text-decoration: inherit;
+    font-size: inherit;
+    }
+        
+   /* fieldset > div > .input, fieldset > div > div > .input, fieldset > div > div > div > div > .input {
+        height: auto !important;
+        padding-top: 0 !important;
+        padding-left: 0 !important;
+        border: 0 !important;
+        border-radius: 0 !important;
+        background-color: transparent !important;
+        box-shadow: none !important;
+        transition: none !important;
+    
+    }*/
+    .hs-form-0fea6c11-dad7-44f8-8454-cce46ebd3755_8bbb9f20-a79c-434d-92bf-54c29e0dfc7c fieldset.form-columns-2 .hs-form-field {
+        width: 50%;
+        float: left;
+    }
+    label{
+         font-weight: bold;
+         font-family: Suisseintl,sans-serif;
+         font-size: 1rem;
+    line-height: 1.5;
+}  
+/*@media screen and (max-width: 767px)
+.padding-large {
+    padding: 2rem;
+}*/
+        
+.page-padding {
+    color: #000;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: block;
+    overflow: visible;
+}
+
+/*@media screen and (max-width: 767px)
+.padding-vertical.padding-large {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}*/
+
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+
+.actions > .hs-button {
+    padding: 0.75rem 3rem 0.75rem 1.6rem;
+    border: 1px #000;
+    border-radius: 50rem;
+    background-color: #dcfe54;
+    background-image: url(https://assets-global.website-files.com/62d96b0…/62d96b0…_arrow-right.svg);
+    background-position: 82% 50%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    -webkit-transition: .2s;
+    transition: .2s;
+    font-family: Suisseintl,sans-serif;
+    color: #201f21;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    width: 12rem;
+}
+input[type="submit" i] {
+    appearance: auto;
+    user-select: none;
+    cursor: default;
+}
+.grecaptcha-badge{
+    visibility: hidden;
+}
+input[type="checkbox"] {
+    width: 1.5rem;
+    height: 1.5rem;
+    min-height: 1.5rem;
+    min-width: 1.5rem;
+    margin-top: 0px;
+    margin-right: 1rem;
+    border-width: 2px;
+    border-top-color: hsl(223deg 100% 15%);
+    border-right-color: hsl(223deg 100% 15%);
+    border-bottom-color: hsl(223deg 100% 15%);
+    border-left-color: hsl(223deg 100% 15%);
+    border-radius: 0.5rem;
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-timing-function: ease;
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+}   
+fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    max-width: unset !important; 
+}
+
+body{
+    margin-left: 5%;
+}
+@media only screen and (max-width: 500px){
+    .hbspt-form > form, fieldset{
+      display: block;
+    }
+    form > fieldset > div {
+      padding: 10px 0px;
+    }
+    .form-columns-2 > div{
+      width: 100%;
+    }
+  }
+
+   [role="checkbox"] > li > label > span {
+    vertical-align: super;
+	}
+
+  
