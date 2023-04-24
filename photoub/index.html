@@ -1,140 +1,255 @@
-<html>
-    <head>
-        <title>photoup webpage</title>
-        <link rel="stylesheet" href="style.css">
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
-    </head>
-    <body>
-        <script src="https://kit.fontawesome.com/4439ef1cc3.js" crossorigin="anonymous"></script>
-        <div id="whole">
-       <nav class="nav-bar">
-            <a href="#" class="logo"> <i class="ri-camera-3-line"></i> <span>photoup</span></a>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ADDRESS</a></li>
-            <li><a href="#">FOLLOW US</a></li>
-            <li><a href="#">LINKS</a></li>
-            <div class="main">
-                <a href="#" class="user"><i class="ri-user-fill"></i>login</a>
-                <a href="#">download</a>
-                <div class="bx-menu" id="menu-icon"></div>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+      <title>potoub</title>
+          <link rel="stylesheet" href="asset/css/style.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+   </head>
+   
+   <body class="main-layout">
+    <script src="asset/img/https://kit.fontawesome.com/4439ef1cc3.js" crossorigin="anonymous"></script>
+      <div class="wrapper">
+      <div class="sidebar">
+         <nav id="sidebar">
+            <div id="dismiss">
+               <i class="fa fa-arrow-left"></i>
             </div>
-        </nav>
-            <section class="home" id="home">
-                <div class="home-text">
-                   <div>
-                    <img src="get.png">
-                   </div>
-                    <p class="para">A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.</p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-                <div class="home-img">
-                    <img src="pic1.png">
-                </div>
-            </section>
-            <section class="about" id="about">
-                <div class="about-img">
-                    <img src="pic3.png">
-                </div>
-                <div class="about-text">
-                    <h2>About <span class="blue">software</span></h2>
-                    <p class="para1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-            </section>
-            <section>
-                <div class="title">
+            <ul class="list-unstyled components">
+               <li class="active"> <a href="#">Home</a> </li>
+               <li><a href="#">About </a> </li>
+               <li><a href="#">Work</a> </li>
+               <li><a href="#">Contact </a> </li>
+            </ul>
+         </nav>
+      </div>
+      <div id="content">
+        <div class="topnav">
+            <a href="#home" class="active">Logo</a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+              <a href="#news">News</a>
+              <a href="#contact">Contact</a>
+              <a href="#about">About</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+         <header>
+    
+            <div class="header">
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="column">
+                        <div class="full">
+                           <div class="center-desk">
+                              <div class="logo">
+                                 <a href=""><img src="asset/images/logo.png" alt="#" /></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="header-text">
+                        <ul class="btn">
+                           <li class="down_btn"><a href="#">Download</a></li>
+                           <li><a href="#">Sign Up</a></li>
+                           <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                           <li><button type="button" id="sidebarCollapse">
+                              <img src="asset/images/menu_icon.png" alt="#" />
+                              </button>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <!-- end header inner -->
+         <!-- end header -->
+         <!-- banner -->
+         <div id="myCarousel" class="carousel slide banner_main" >
+           
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container-fluid">
+                     <div class="caption">
+                        <div class="row">
+                           <div class="col">
+                              <div class="text-bg">
+                                 <h1>Get<br> Thinking A <br>long time</h1>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+                                 <a class="read_more" href="#">Read more</a>
+                              </div>
+                           </div>
+                           <div class="col1">
+                              <div class="images_box">
+                                 <figure><img src="asset/images/img2.png"></figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               
+          
+         </div>
+         <div id="about"  class="about">
+            <div class="container-fluid">
+               <div class="row d_flex">
+                  <div class="col2">
+                     <div class="about_img">
+                        <figure><img src="asset/images/about_img.jpg" alt="#"/></figure>
+                     </div>
+                  </div>
+                  <div class="col3">
+                     <div class="titlepage">
+                        <h2>About <span class="blu">Software</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit </p>
+                        <a class="read_more">Read More</a>
+                     </div>
+                  </div>
+                  
+               </div>
+            </div>
+         </div>
+       <section>
+        <div class="col4">
+                    
+            <div class="title">
 <h2>why <span class="blue">choose us</span></h2>
-                </div>
-            </section>
-            <div class="third">
-                <div class="third-bx">
-                    <ul class="easy">
-                        <li class="active"><a href="">Easy to customize</a></li>
-                        <li><a href="">more flexible</a></li>
-                        <li><a href="">clean mode</a></li>
-                        <li><a href="">Ratinaready</a></li>
-                    </ul>
-                    </div>
-                    <div class="choose">
-                        <!--<i>
-                        <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page283/potoub/assets/images/admin.png">
-                   </i>-->
-                        <h3>Ad minim</h3>
-                        <p>Ad Minim
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                    </div>
-                </div>
-            </section>
-            <section class="four-page" >
-                <div class="four-text">
-                  <h2>How to <span class="blue">works it</span></h2>
-                    <p class="para">A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                 
-                    <a href="#" class="btn">read more</a>
-                </div>
-                <div class="home-img">
-                    <img src="pic2.png">
-                </div>
-            </section>
-            <div class="contact-in">
-                <div class="contact-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224346.54006461374!2d77.0441673308093!3d28.52725273141288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1682145815832!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-<div class="contact-form">
-    <h2>Request <span class="white">A Call Back</span></h2>
-    <form>
-        <input type="text" placeholder="name" class="contact-form-txt">
-        <input type="text" placeholder="email" class="contact-form-txt">
-        <textarea placeholder="message" class="contact-form-textarea"></textarea>
-        <input type="submit" name="send" class="contact-form-btn">
-    </form>
-
-</div>
             </div>
-            <footer class="footer">
-                <div class="containers">
-                    <div class="row">
-                        <div class="footer-col">
-                            <h4>Address</h4>
-                        <p>
-                            its a long established fact that a reader will be distracted by raedable content of a page when looking at its layout the point of using Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        </p>
-                               
-                        
+    
+      </div>
+       </section>
+         <div class="choose ">
+            <div class="container">
+               <div class="row">
+                 
+               </div>
+            </div>
+            <div class="choose_bg">
+               <div class="container">
+                  <div class="row">
+                     <div class="col4">
+                        <div class="row">
+                           <div class="col5">
+                              <ul class="easy">
+                                 <li class="active"><a href="#">Easy to cutomize</a></li>
+                                 <li><a href="#">More flexible</a></li>
+                                 <li><a href="#">Clean mode</a></li>
+                                 <li><a href="#">Ratinaready</a></li>
+                              </ul>
+                           </div>
+                           <div class="col6">
+                              <div class="choose_box">
+                                 <i><img src="asset/images/admin.png" alt="#"/></i>
+                                 <h3> Ad Minim</h3>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                              </div>
+                           </div>
                         </div>
-                        <div class="footer-col">
-                            <h4>Links</h4>
-                            <ul>
-                                <li><a href="#">home</a></li>
-                                <li><a href="#">work</a></li>
-                                <li><a href="#">about</a></li>
-                                <li><a href="#">contact</a></li>
-                                
-                            </ul>
-                        </div>
-                        <div class="footer-col">
-                            <h4>Follow Us</h4>
-                            <ul>
-                                <li><a href="#"> <i class="fa-brands fa-facebook"></i>Facebook</a></li>
-                                <li><a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
-                                <li><a href="#"><i class="fa-brands fa-linkedin"></i>Linkedin</a></li>
-                                <li><a href="#"><i class="fa-brands fa-youtube"></i>Youtube</a></li>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
-                                
-                            </ul>
-                        </div>
-                        <div class="footer-col">
-                            <h4>Newsletter</h4>
-                            <input type="text" placeholder="name">
-                            <input type="submit" name="subscribe">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+         <div id="work"  class="work">
+            <div class="container-fluid">
+               <div class="row d_flex">
+                  <div class="col7">
+                     <div class="titlepage">
+                        <h2>How To <span class="blu">Works it</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit </p>
+                        <a class="read_more">Read More</a>
+                     </div>
+                  </div>
+                  <div class="col8">
+                     <div class="work_img">
+                        <figure><img src="asset/images/work_img.jpg" alt="#"/></figure>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+       
+         <div class="contact-in">
+            <div class="contact-form">
+                <h2>Request <span class="white">A Call Back</span></h2>
+                <form>
+                    <input type="text" placeholder="name" class="contact-form-txt">
+                    <input type="text" placeholder="email" class="contact-form-txt">
+                    <textarea placeholder="message" class="contact-form-textarea"></textarea>
+                    <input type="submit" value="send" class="contact-form-btn">
+                </form>
+            
+            </div>
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.89796604795!2d77.04416917367674!3d28.52755441104534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1682328281709!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
 
-                        </div>
+        </div>
+                       <footer class="footer">
+            <div class="containers">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Address</h4>
+                    <p>
+                        its a long established fact that a reader will be distracted by raedable content of a page when looking at its layout the point of using Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </p>
+                           
+                    
+                    </div>
+                    <div class="footer-col">
+                        <h4>Links</h4>
+                        <ul>
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">work</a></li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">contact</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Follow Us</h4>
+                        <ul>
+                            <li><a href="#"> <i class="fa-brands fa-facebook"></i><i class="ri-facebook-line"></i>Facebook</a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i>Linkedin</a></li>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></i>Youtube</a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Newsletter</h4>
+                        <form class="bottom_form">
+                            <input class="enter" placeholder="Enter Your Email" type="text" name="Enter Your Email">
+                            <button class="sub_btn">subscribe</button>
+                         </form>
                     </div>
                 </div>
+            </div>
 
-            </footer>
-        </div>
-    </body>
-
+        </footer>
+      </div>
+      <div class="overlay"></div>
+   </body>
+   <script>
+   function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
 </html>
 
